@@ -1,0 +1,102 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* App background */
+body {
+  background: linear-gradient(to right, #74ebd5, #9face6);
+  min-height: 100vh;
+}
+
+/* Main App Container */
+.app {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  gap: 20px;
+}
+
+/* App Title */
+.app h1 {
+  color: black;
+  font-size: 32px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+/* Search Box */
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+/* Input styling */
+.search-box input {
+  padding: 10px 12px;
+  width: 220px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Button styling */
+.search-box button,
+.refresh-box button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 6px;
+  background-color: #ffffff;
+  color: black;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* Button hover */
+.search-box button:hover,
+.refresh-box button:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+/* Weather Card */
+.card {
+  width: 260px;
+  background: #ffffff;
+  border-radius: 12px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Weather Image */
+.card img {
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+/* Temperature */
+.card h2 {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+/* City Name */
+.card h5 {
+  font-size: 16px;
+  color: #333;
+}
+
+/* Refresh Button Box */
+.refresh-box {
+  margin-top: 10px;
+}
