@@ -1,6 +1,6 @@
-# 🌦️ Weather App
+# 🌦️ Weather App (React)
 
-A responsive **Weather Application** that provides real-time weather information for any city using a weather API. Users can search for a location and instantly get details such as **temperature, humidity, wind speed, and weather conditions**.
+A responsive **Weather Application built with React.js** that provides real-time weather information for any city using a weather API. Users can search for a location and instantly get details such as **temperature, humidity, wind speed, and weather conditions**.
 
 🔗 **Live Demo:** https://aysweatherapp.netlify.app/  
 📂 **GitHub Repository:** https://github.com/Ayush1228/weather_App
@@ -9,31 +9,50 @@ A responsive **Weather Application** that provides real-time weather information
 
 # 🚀 Features
 
-- 🌍 Search weather by **city name**
-- 🌡️ Displays **current temperature**
-- 💧 Shows **humidity level**
-- 🌬️ Displays **wind speed**
-- ☁️ Weather condition with **icons**
-- 📱 **Responsive design** for mobile and desktop
-- ⚡ Fast and lightweight interface
+- 🌍 **Search Weather by City**  
+  Users can search weather information for any city worldwide.
+
+- 🌡️ **Real-Time Temperature**  
+  Displays current temperature of the searched location.
+
+- 💧 **Humidity Information**  
+  Shows humidity levels in the atmosphere.
+
+- 🌬️ **Wind Speed Data**  
+  Displays current wind speed.
+
+- ☁️ **Weather Condition Icons**  
+  Visual icons representing the current weather conditions.
+
+- ⚡ **Dynamic Data Fetching**  
+  Fetches live weather data using an external weather API.
+
+- 📱 **Responsive UI**  
+  Works smoothly across desktop, tablet, and mobile devices.
 
 ---
 
 # 🛠️ Tech Stack
 
 ### Frontend
+- React.js
+- JavaScript (ES6+)
 - HTML5
 - CSS3
-- JavaScript
 
 ### API
-- Weather API (e.g., OpenWeatherMap)
+- OpenWeatherMap API
 
 ### Deployment
 - Netlify
 
----
+### Tools
+- Git
+- GitHub
+- VS Code
+- npm
 
+---
 
 # ⚙️ Installation & Setup
 
@@ -49,17 +68,31 @@ git clone https://github.com/Ayush1228/weather_App.git
 cd weather_App
 ```
 
-### 3️⃣ Open the project
+### 3️⃣ Install dependencies
 
-Simply open **index.html** in your browser.
+```bash
+npm install
+```
+
+### 4️⃣ Start the development server
+
+```bash
+npm start
+```
+
+The application will run at:
+
+```
+http://localhost:3000
+```
 
 ---
 
 # 🔑 API Setup
 
-1. Create an account on a weather API provider (such as OpenWeatherMap).
+1. Create an account on **OpenWeatherMap**.
 2. Generate your **API key**.
-3. Replace the API key in your JavaScript file.
+3. Add your API key in the project where the API request is made.
 
 Example:
 
@@ -74,10 +107,17 @@ const apiKey = "YOUR_API_KEY";
 ```
 weather_App
 │
-├── index.html
-├── style.css
-├── script.js
-├── assets/
+├── public
+│   └── index.html
+│
+├── src
+│   ├── components
+│   ├── App.js
+│   ├── App.css
+│   ├── index.js
+│   └── services
+│
+├── package.json
 └── README.md
 ```
 
@@ -88,7 +128,8 @@ weather_App
 - 🌦️ 5-day weather forecast
 - 📍 Auto location detection
 - 🌙 Dark / Light mode
-- 📊 Weather charts
+- 📊 Weather charts and trends
+- 📱 Enhanced mobile UI
 
 ---
 
