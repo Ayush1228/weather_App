@@ -1,16 +1,103 @@
-# React + Vite
+# 🌦️ Weather App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Weather Application** that provides real-time weather information for any city using a weather API. Users can search for a location and instantly get details such as **temperature, humidity, wind speed, and weather conditions**.
 
-Currently, two official plugins are available:
+🔗 **Live Demo:** https://aysweatherapp.netlify.app/  
+📂 **GitHub Repository:** https://github.com/Ayush1228/weather_App
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+# 🚀 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Search weather by **city name**
+- 🌡️ Displays **current temperature**
+- 💧 Shows **humidity level**
+- 🌬️ Displays **wind speed**
+- ☁️ Weather condition with **icons**
+- 📱 **Responsive design** for mobile and desktop
+- ⚡ Fast and lightweight interface
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+# 🛠️ Tech Stack
+
+### Frontend
+- HTML5
+- CSS3
+- JavaScript
+
+### API
+- Weather API (e.g., OpenWeatherMap)
+
+### Deployment
+- Netlify
+
+---
+
+
+# ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/Ayush1228/weather_App.git
+```
+
+### 2️⃣ Navigate to the project folder
+
+```bash
+cd weather_App
+```
+
+### 3️⃣ Open the project
+
+Simply open **index.html** in your browser.
+
+---
+
+# 🔑 API Setup
+
+1. Create an account on a weather API provider (such as OpenWeatherMap).
+2. Generate your **API key**.
+3. Replace the API key in your JavaScript file.
+
+Example:
+
+```javascript
+const apiKey = "YOUR_API_KEY";
+```
+
+---
+
+# 📂 Project Structure
+
+```
+weather_App
+│
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+└── README.md
+```
+
+---
+
+# 💡 Future Improvements
+
+- 🌦️ 5-day weather forecast
+- 📍 Auto location detection
+- 🌙 Dark / Light mode
+- 📊 Weather charts
+
+---
+
+# 👨‍💻 Author
+
+**Ayush Kumar**
+
+- GitHub: https://github.com/Ayush1228
+
+---
+
+⭐ If you like this project, consider giving it a **star on GitHub**.
